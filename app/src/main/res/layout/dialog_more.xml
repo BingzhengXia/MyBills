@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@color/grey_f3f3f3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/dialog_more_btn_info"
+            style="@style/dialogmoreStyle"
+            android:drawableTop="@mipmap/it_xiqing"
+            android:background="@drawable/mainlv_item_top_bg"
+            android:textColor="@color/black"
+            android:text="账单详情"/>
+        <Button
+            android:id="@+id/dialog_more_btn_record"
+
+            style="@style/dialogmoreStyle"
+            android:drawableTop="@mipmap/it_jilu"
+            android:textColor="@color/black"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/mainlv_item_top_bg"
+            android:text="历史账单"/>
+        <Button
+            android:id="@+id/dialog_more_btn_setting"
+            android:drawableTop="@mipmap/it_shezhi"
+            android:textColor="@color/black"
+            android:background="@drawable/mainlv_item_top_bg"
+            style="@style/dialogmoreStyle"
+
+            android:text="设置"/>
+    </LinearLayout>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:weightSum="3">-->
+<!--        <Button-->
+<!--            android:id="@+id/dialog_more_btn_info"-->
+<!--            style="@style/dialogmoreStyle"-->
+<!--            android:drawableTop="@mipmap/it_xiqing"-->
+<!--            android:text="@string/account_info"-->
+<!--            android:layout_marginRight="30dp"/>-->
+<!--    </LinearLayout>-->
+<!--    <ImageView-->
+<!--        android:id="@+id/dialog_more_iv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@mipmap/ih_error"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="10dp"/>-->
+</LinearLayout>

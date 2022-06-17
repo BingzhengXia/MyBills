@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_f3f3f3">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainlv_item_top_bg"
+        android:padding="20dp"
+        >
+        <TextView
+            android:id="@+id/item_mainlv_top_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本月支出"
+            android:textColor="@color/grey_base"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本月预算"
+            android:textColor="@color/grey_base"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:id="@+id/item_mainlv_top_tv_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¥ 0"
+            android:textColor="@color/black"
+            android:layout_below="@+id/item_mainlv_top_tv1"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/item_mainlv_top_iv_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="2000"
+            android:textColor="@color/black"
+
+
+            android:background="@drawable/record_bg"
+            android:textSize="20sp"
+            android:layout_alignTop="@+id/item_mainlv_top_tv_out"/>
+        <TextView
+            android:id="@+id/item_mainlv_top_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本月收入"
+            android:textColor="@color/grey_base"
+            android:layout_below="@id/item_mainlv_top_tv_out"/>
+        <TextView
+            android:id="@+id/item_mainlv_top_tv_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="¥ 0"
+            android:textStyle="bold"
+            android:layout_below="@id/item_mainlv_top_tv_out"
+            android:layout_toRightOf="@+id/item_mainlv_top_tv2"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/item_mainlv_top_tv_budget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¥ 0"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/item_mainlv_top_tv2"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:id="@+id/item_mainlv_top_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="预算剩余"
+            android:textColor="@color/grey_base"
+            android:layout_toLeftOf="@id/item_mainlv_top_tv_budget"
+            android:layout_alignBottom="@id/item_mainlv_top_tv2"/>
+
+        <TextView
+            android:id="@+id/item_mainlv_top_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/it_xiqing"
+            android:layout_below="@id/item_mainlv_top_tv2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="查看账单详情"
+            android:textColor="@color/grey_base"/>
+
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/item_mainlv_top_tv_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="今日支出  收入"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/grey_base"/>
+
+
+</LinearLayout>
